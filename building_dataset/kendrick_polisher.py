@@ -90,7 +90,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process a folder of JSON files and extract relevant data.')
     parser.add_argument('folder_path', type=str, help='Path to the folder containing JSON files.')
     parser.add_argument('output_dir', type=str, help='Directory where output files will be saved.')
-    parser.add_argument('batch_size', type=int, help='Number of files to process in each batch.')
+    parser.add_argument('batch_size', type=int, help='Number of files to process in each batch. 500 is a good starting point.')
 
     args = parser.parse_args()
 
