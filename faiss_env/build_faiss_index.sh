@@ -29,6 +29,7 @@ export PATH="$PATH:$(python3 -m site --user-base)/bin"
 
 cd $working_dir
 
+# Make sure to install gdown before running this script on your system
 gdown 1Tz-YocAJuOm8poZbCSlhLmw2nHcpmD6I -O $archive_path
 gdown 1zbJm29VxqwqHQGSU3WsSbs86BqbsGj2n -O $sif_image_path
 
